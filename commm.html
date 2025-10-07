@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+</head>
+<body>
+    <div class="user" style="display: flex; padding-top: 10px;">
+        <p style="padding-right: 5px;">Username:</p>
+        <input type="text" class="input" id="user1" style = "width: 200px;">
+    </div>
+    
+    <div class="password" style="display: flex; padding-top: 10px;">
+        <p style="padding-right: 8px;">Password:</p>
+        <input type="password" class="input" id="pass1" style = "width: 200px;">
+    </div>
+    
+    <!-- Button under the inputs -->
+    <div  class = "hello1" style="padding-top: 15px; display: flex; gap:10px; margin-left: 100px;">
+        <button id="logbtn" class = "button">login</button>
+        <button id="back" class = "button" onclick= "back()">back</button>
+    </div>
+
+    <script src="comm.js"></script>
+</body>
+</html>
